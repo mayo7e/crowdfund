@@ -1,23 +1,41 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import Logo from "./assets/crowdfund.png"
+import mLogo from "./assets/m-icon.png"
+import Menu from "./assets/hamburger.svg"
+// import Backproject from "./backproject.js"
+
 
 
 const Home = () => {
   return (
-    <div>
-        <nav>
-          
-            <img className="brand-logo" alt="crowdfund's logo" src="0#" />
-            <img className="hamburger-menu" alt="hamburger menu icon" src="0#" />
-        </nav>
+    <div className='home' >
+        <header> 
+                <nav>
+
+                    <ul>
+                        <li>
+                            <img className="brand-logo" alt="crowdfund's logo" src={Logo} />
+                        </li>
+                        <li className="hamburger-menu" >
+                            <img className="hamburger-menu_logo" alt="hamburger menu icon" src={Menu} />   
+                        </li>
+                    </ul>
+                
+                </nav>
+                
+        </header>
+      
+
         <main>
+                <div className="m-logo-grp" >
+                    <img className="icon-m" alt="styled icon -m in a circle with black background" src={mLogo} />
+                </div>
             <section className="section-01" >
-                <img className="icon-m" alt="styled icon -m in a circle with black background" src="0#" />
-                <h1> mastercraft Bamboo Monitor Riser</h1>
-                <p>a beautifully handcrafted monitor stand to reduce neck and eye strain.</p>
+                <h1> Mastercraft Bamboo Monitor Riser</h1>
+                <p>A beautifully handcrafted monitor stand to reduce neck and eye strain.</p>
                 <div>
-                    {/* <button>back this project</button> */}
-                    <a href="0#"><Link target="_blank" to="/backproject"><span>back this project</span></Link></a>
+                    <button>back this project</button>
+                    
                     <img className="bookmark-icon" alt="bookmark icon" src="0#" />
                 </div>
             </section>
@@ -35,7 +53,7 @@ const Home = () => {
                     <h1>56</h1>
                     <p>days left</p>
                 </div>
-                <img className="progress-bar" alt="progress bar" />
+                <img className="progress-bar" alt="progress bar" src="" />
             </section>
 
             <section className="section-03" >
@@ -99,6 +117,8 @@ const Home = () => {
             </section>
 
         </main>
+
+                        
     </div>
   )
 }

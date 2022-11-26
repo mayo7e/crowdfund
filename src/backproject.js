@@ -2,7 +2,7 @@ import React from 'react'
 
 const Backproject = () => {
   return (
-    <div>
+    <div className='backproject' >
         <section>
             <div>
                 <h2>Back this project</h2>
