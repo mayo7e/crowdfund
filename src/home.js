@@ -2,7 +2,9 @@ import React from 'react'
 import Logo from "./assets/crowdfund.png"
 import mLogo from "./assets/m-icon.png"
 import Menu from "./assets/hamburger.svg"
-// import Backproject from "./backproject.js"
+import Bookmark from  "./assets/bookmark.png"
+import RangeSlider from  "./assets/rangeslider.png"
+import Backproject from "./backproject.js"
 
 
 
@@ -33,10 +35,12 @@ const Home = () => {
             <section className="section-01" >
                 <h1> Mastercraft Bamboo Monitor Riser</h1>
                 <p>A beautifully handcrafted monitor stand to reduce neck and eye strain.</p>
-                <div>
-                    <button>back this project</button>
+                <div className='backproject-action'>
+                    <button className="btn-grp btn_01" >back this project</button>
                     
-                    <img className="bookmark-icon" alt="bookmark icon" src="0#" />
+                    <div className='logo-grp'>
+                         <img className="bookmark-icon" alt="bookmark icon" src={Bookmark} />
+                    </div>
                 </div>
             </section>
 
@@ -53,7 +57,7 @@ const Home = () => {
                     <h1>56</h1>
                     <p>days left</p>
                 </div>
-                <img className="progress-bar" alt="progress bar" src="" />
+                <img className="progress-bar" alt="progress bar" src={RangeSlider} />
             </section>
 
             <section className="section-03" >
@@ -63,51 +67,51 @@ const Home = () => {
                 <br />    
                 Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer to allow notepads, pens, and USB sticks to be stored under the stand.</p>
 
-                <div className='project-details_01' >
+                <div className='project-details' >
                     <div>
                         <h3>Bamboo Stand</h3>
-                        <h3>Pledge $25 or more</h3>
+                        <h4>Pledge $75 or more</h4>
                     </div>
                     <p>You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional
                         campaign, and you’ll be added to a special Backer member list.</p>
                     <div>
-                        <div>
+                        <div className='project-details-figures' >
                             <h1>101</h1>
                             <p>left</p>
                         </div>
-                        <button>select reward</button>
+                        <button className="btn-grp btn_02" >select reward</button>
                     </div>
 
                 </div>
 
-                <div className='project-details_02' >
+                <div className='project-details' >
                     <div>
                         <h3>Black Edition Stand</h3>
-                        <h3>Pledge $75 or more</h3>
+                        <h4>Pledge $75 or more</h4>
                     </div>
                     <p>You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included.</p>
                     <div>
-                        <div>
+                    <div className='project-details-figures' >
                             <h1>64</h1>
                             <p>left</p>
                         </div>
-                        <button>select reward</button>
+                        <button className="btn-grp btn_02" >select reward</button>
                     </div>
 
                 </div>
 
-                <div className='project-details_03' >
+                <div className='project-details' >
                     <div>
                         <h3>Mahogany Special Edition</h3>
-                        <h3>Pledge $200 or more</h3>
+                        <h4>Pledge $75 or more</h4>
                     </div>
                     <p>You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added to our Backer member list. Shipping is included.</p>
                     <div>
-                        <div>
+                    <div className='project-details-figures' >
                             <h1>0</h1>
                             <p>left</p>
                         </div>
-                        <button>out of stock</button>
+                        <button className="btn-grp btn_02" >select reward</button>
                     </div>
 
                 </div>
@@ -115,6 +119,7 @@ const Home = () => {
 
 
             </section>
+            <Backproject />
 
         </main>
 
