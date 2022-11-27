@@ -2,6 +2,7 @@ import React from 'react'
 
 const Backproject = () => {
   return (
+    <div id="overlay-02">
     <div className='backproject' >
         <section>
             <div>
@@ -57,7 +58,7 @@ const Backproject = () => {
             <p>0<span>left</span></p>
         </section>
 
-
+        </div>
     </div>
   )
 }

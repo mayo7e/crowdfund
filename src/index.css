@@ -38,7 +38,7 @@ ul{
 
 .btn-grp{
     font-weight: 700;  
-    background: #3CB3AB;
+    background: rgb(60, 179, 171);
     border:none;
     border-radius: 33.5px;
 
@@ -75,20 +75,98 @@ ul{
     
 }
 
+
+
+#overlay{
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 100%);
+    mix-blend-mode: normal;
+    opacity: 1;
+    display: flex;
+    width: 100%;
+
+    display: none;
+
+    
+  }
+
+#overlay-02{
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    z-index: 1000;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.0001) 100%);
+    mix-blend-mode: normal;
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    padding-top: 160px;
+
+  
+    overflow-y:scroll;
+    overflow-x:hidden;
+
+    /* display: none; */
+
+    
+  }
+  
+  #modal {
+    display:flex;
+    flex-direction: column;
+    margin: 60px auto 0 auto;
+
+    width: 90%;
+    height:20%;
+    
+    max-width: 40rem;
+    background: #FFFFFF;
+    opacity:1;
+    border: 1px solid rgba(0, 0, 0, 0.0497193);
+    border-radius: 8px;
+
+
+  }
+
+#close-modal{
+    margin-left: auto;
+    background: black;
+    object-fit: contain;
+}
+
 /* ===backproject--- */
+
+
+
+
+
 
 .backproject{
     display:flex;
     flex-direction: column;
     min-width: 75%;
 
-    background: #282828;
-    color: whitesmoke;
-    position:absolute;
-    top:-180px;
-    margin: auto;
+    color: #282828;
+    background-color: whitesmoke;
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:85%;
+    height:250%;
+
     
-    right:20px;
+    margin: auto;   
+    
 }
 
 
@@ -286,3 +364,6 @@ section{
     height:48px;
     margin-top:14px;
 }
+
+
+
