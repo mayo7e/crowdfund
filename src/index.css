@@ -144,11 +144,6 @@ ul{
 
 /* ===backproject--- */
 
-
-
-
-
-
 .backproject{
     display:flex;
     flex-direction: column;
@@ -162,12 +157,101 @@ ul{
     left:0;
     right:0;
     width:85%;
-    height:250%;
+    height:285%;
 
     
     margin: auto;   
     
 }
+
+.backproject-header div{
+    display:flex;
+    align-items: center;
+    padding:0 24px;
+}
+.backproject-header h2{
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  
+
+}
+.backproject-header img{
+    margin-left: auto;
+    width:14px;
+    height:14px;
+}
+
+
+.backproject-header p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7A7A7A;
+    padding:0 24px;
+
+}
+
+.backproject-action{
+    display:flex;
+    flex-direction: column;
+    margin:11px 24px;
+    padding: 40px 24px 32px;
+
+    background: #FFFFFF;
+    border: 4px solid rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+
+
+}
+
+.backproject-action p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #7A7A7A;
+}
+
+.backproject-action span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.flex h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+input {
+margin: auto;
+   
+}
+
+.checkbox-grp{
+    display: flex;
+    width:24px;
+    height:24px;
+    border-radius:20px;
+    border: 1px solid #beb4b4;
+ 
+    background-color: #eee;
+
+    /* background: #3CB3AB; */
+mix-blend-mode: normal;
+}
+
+
 
 
 /* ---main--- */
