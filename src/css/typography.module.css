@@ -1,0 +1,150 @@
+
+/* Typography - body */
+
+.body-xs{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-sm);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-xs);
+  
+}
+.body-xs-bold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-sm);
+  font-weight: var( --font-weights-bold);
+  line-height: var(--font-line-height-body-xs);
+ 
+}
+.body-xs-link{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-sm);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-xs);
+  text-decoration: var(--font-decoration-underline); 
+}
+
+
+.body-sm{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-sm);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-sm);
+
+}
+.body-sm-bold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-sm);
+  font-weight: var( --font-weights-bold);
+  line-height: var(--font-line-height-body-sm);
+  
+}
+.body-sm-link{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-sm);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-sm);
+  text-decoration: var(--font-decoration-underline);
+}
+
+
+.body-md{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-md);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-md);
+}
+.body-md-bold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-md);
+  font-weight: var( --font-weights-bold);
+  line-height: var(--font-line-height-body-md);
+ 
+}
+.body-md-link{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-md);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-md);
+  text-decoration: var(--font-decoration-underline);
+}
+
+
+.body-lg{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-lg);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-lg);
+
+}
+.body-lg-bold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-lg);
+  font-weight: var( --font-weights-bold);
+  line-height: var(--font-line-height-body-lg);
+
+}
+.body-lg-link{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var( --font-size-body-lg);
+  font-weight: var( --font-weights-normal);
+  line-height: var(--font-line-height-body-lg);
+  text-decoration: var(--font-decoration-underline);
+}
+
+
+/* Typography - headung */
+
+
+.heading-xxs-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-xxs);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-xxs);
+
+}
+
+.heading-xs-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-xs);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-xs);
+
+}
+
+.heading-sm-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-sm);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-sm);
+
+}
+
+.heading-md-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-md);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-md);
+
+}
+
+.heading-lg-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-lg);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-lg);
+
+}
+.heading-xl-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-xl);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-xl);
+
+}
+.heading-hero-semibold{
+  font-family: var(--font-family-name-primary) ;
+  font-size: var(--font-size-heading-hero);
+  font-weight: var( --font-weights-semi-bold);
+  line-height: var(--font-line-height-heading-hero);
+
+}
