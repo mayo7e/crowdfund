@@ -99,7 +99,7 @@
   --surface-primary: var(--brand-white);
   --surface-secondary: var(--theme-neutral);
   --surface-disabled: var(--theme-neutral-darker);
-  --surface-sucess: var(--theme-success-light);
+  --surface-success: var(--theme-success-light);
   --surface-error: var(--theme-error-light);
   --surface-warning: var(--theme-warning-light);
   --surface-information: var(--theme-information-lighter);
@@ -125,4 +125,57 @@
  
 
 
+
+  /* Typography*/
+
+  /* font - family */
+  --font-family-name-primary: Roboto;
+  
+  /* font - size */
+  --font-size-body-xs: 12px;
+  --font-size-body-sm: 14px;
+  --font-size-body-md: 16px;
+  --font-size-body-lg: 20px;
+
+  --font-size-heading-xxs: 16px;
+  --font-size-heading-xs: 20px;
+  --font-size-heading-sm: 24px;
+  --font-size-heading-md: 28px;
+  --font-size-heading-lg: 32px;
+  --font-size-heading-xl: 40px;
+  --font-size-heading-hero: 48px;
+  
+  
+
+  /* line - height*/
+  --font-line-height-body-xs: 16px;
+  --font-line-height-body-sm: 20px;
+  --font-line-height-body-md: 24px;
+  --font-line-height-body-lg: 28px;
+
+  --font-line-height-heading-xxs: 24px;
+  --font-line-height-heading-xs: 26px;
+  --font-line-height-heading-sm: 28px;
+  --font-line-height-heading-md: 32px;
+  --font-line-height-heading-lg: 40px;
+  --font-line-height-heading-xl: 48px;
+  --font-line-height-heading-hero: 56px;
+  
+    /* font-weight */
+    --font-weights-xtra-light: 200px;
+    --font-weights-light: 300px;
+    --font-weights-normal: 400px;
+    --font-weights-medium: 500px;
+    --font-weights-semi-bold: 600px;
+    --font-weights-bold: 700px;
+    --font-weights-xtra-bold: 800px;
+   
+    
+
+  /* text - decoration */
+  --font-decoration-underline: underline;
+  --font-decoration-none: none;
+  
+
+  
 }

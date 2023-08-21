@@ -1,0 +1,96 @@
+
+
+.button {
+    text-align: center;
+    border-radius: 8px;
+    font-size: var(--font-size-body-sm);
+    padding: 1rem 2rem;
+    font-weight: var(--font-weights-bold);
+    /* font-size: 14px; */
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: var(--font-decoration-none);
+  
+    &:disabled {
+      cursor: not-allowed;
+    }
+  
+    &.primary {
+      color: var(--text-on-action, #fff);
+      background-color: var(--surface-action-1, #5d4aec);
+      border: 1px solid var( --border-action, #5d4aec);
+      box-shadow: none;
+  
+      &:hover {
+        border: 1px solid var(--border-action-hover, #5d4aec);
+        color: var(--text-on-action, #fff);
+        background-color: var(--surface-action-1-hover, #5d4aec);
+        text-decoration: none;
+      }
+      &:active {
+        border: 1px solid var(--border-action, #5d4aec);
+        background-color: var(--surface-highlight, #6c5ce7);
+        color: var(--text-on-action, #fff);
+      }
+      &:disabled {
+        color: #babec9;
+        background-color: #f6f6f6;
+        border: 1px solid #babec9;
+      }
+    }
+  
+    &.secondary {
+      border: 1px solid var(--border-primary, #5d4aec);
+      color: var(--text-action, #5d4aec);
+      background-color: var(--surface-primary, #fff);
+      box-shadow: none;
+  
+      &:hover {
+        color: var(--text-on-action-hover, #5d4aec);
+        background-color: var(--text-on-action, #fff);
+        text-decoration: none;
+      }
+      &:active {
+        background-color: var(--surface-highlight, #eceaff);
+        color: var(--text-on-action, #5d4aec);
+      }
+      &:disabled {
+        color: #babec9;
+        background-color: #fff;
+        border: 1px solid #babec9;
+      }
+    }
+
+    &.white {
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25),
+        0px -1px 1px rgba(0, 0, 0, 0.09);
+      border: 1px var(--border-primary);
+      color: var(--text-action, #5d4aec);
+      background-color: var(--surface-primary);
+      box-shadow: none;
+  
+      &:hover {
+        background-color: var(--surface-secondary, #eceaff);
+      }
+      &:active {
+        background-color: var(--surface-secondary, #eceaff);
+      }
+      &:disabled {
+        color:var(--text-disabled);
+        background-color: var(--surface-primary);
+        border: none;
+      }
+    }
+    &.counter {
+      border: none;
+      background-color: var(--surface-secondary);
+      font-size: 30px;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      justify-content: space-around;
+    }
+  }
