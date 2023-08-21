@@ -5,6 +5,7 @@
     border-radius: 8px;
     font-size: var(--font-size-body-sm);
     padding: var(--spacing-md) var(--spacing-xl);
+   margin: var(--spacing-md) var(--spacing-xl);
     font-weight: var(--font-weights-bold);
     /* font-size: 14px; */
     cursor: pointer;
@@ -18,7 +19,7 @@
     &.primary {
       color: var(--text-on-action, #fff);
       background-color: var(--surface-action-1, #5d4aec);
-      border: 1px solid var( --border-action, #5d4aec);
+      border: var(--border-radius-xs) solid var( --border-action, #5d4aec);
       box-shadow: none;
   
       &:hover {
@@ -35,7 +36,7 @@
       &:disabled {
         color: #babec9;
         background-color: #f6f6f6;
-        border: 1px solid #babec9;
+        border: var(--border-radius-xs) solid #babec9;
       }
     }
   
@@ -57,7 +58,7 @@
       &:disabled {
         color: #babec9;
         background-color: #fff;
-        border: 1px solid #babec9;
+        border: var(--border-radius-xs) solid #babec9;
       }
     }
 
@@ -78,11 +79,11 @@
       &:disabled {
         color:var(--text-disabled);
         background-color: var(--surface-primary);
-        border: none;
+        border: var(--border-radius-none);
       }
     }
     &.counter {
-      border: none;
+      border: var(--border-radius-none);
       background-color: var(--surface-secondary);
       font-size: 30px;
       width: 40px;
