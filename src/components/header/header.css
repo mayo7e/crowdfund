@@ -42,18 +42,6 @@ h1, .nav-container, .Link, .nav-button{
 
 
 @media(min-width:790px){
-    .header{
-       flex-direction: row;
-        align-items: center;
-        border-bottom: 1px solid var(--border-action)
-       }
-
-    .container{
-        width: 90%;
-        max-width: 1312px;
-        margin: 0 auto;
-    }
-
     .Link{
         display: flex;
     }
