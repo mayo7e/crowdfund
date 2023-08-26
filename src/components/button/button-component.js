@@ -1,7 +1,12 @@
 import React from 'react';
 import Button  from './button';
 
- export const PrimaryButton = () => {
+ export const PrimaryButton = ({text}) => {
+  return (
+        <button className="button primary">{text}</button>
+    );
+}
+ export const PrimaryButtonOutlined = () => {
   return (
         <button className="button primary">Primary</button>
     );
@@ -14,9 +19,9 @@ import Button  from './button';
 }
 
 
-export const SecondaryButton = () => {
+export const SecondaryButton = ({text}) => {
   return (
-        <button className="button secondary">Secondary</button>
+        <button className="button secondary">{text}</button>
     );
 }
  

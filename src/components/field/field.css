@@ -1,0 +1,16 @@
+
+
+.nav-input{
+    /* width: 200px; */
+    padding:0 8px;
+
+    height:30px;
+    display:flex;
+    /* display:flex; */
+    border: 1px solid var( --border-action);
+    border-radius: var(--border-radius-sm) ;
+}
+
+.margin{
+    margin:0;
+}

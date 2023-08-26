@@ -2,12 +2,13 @@
 
 .button {
     text-align: center;
-    border-radius: 8px;
+    /* height: 28px; */
+    border-radius: var(--border-radius-sm);
     font-size: var(--font-size-body-sm);
-    padding: var(--spacing-md) var(--spacing-xl);
-   margin: var(--spacing-md) var(--spacing-xl);
+    padding: var(--spacing-xs) var(--spacing-md);
+   /* margin: var(--spacing-md) var(--spacing-xl); */
+   /* margin-left: var(--spacing-xs); */
     font-weight: var(--font-weights-bold);
-    /* font-size: 14px; */
     cursor: pointer;
     display: inline-block;
     text-decoration: var(--font-decoration-none);
@@ -23,7 +24,7 @@
       box-shadow: none;
   
       &:hover {
-        border: 1px solid var(--border-action-hover, #5d4aec);
+        border: var(--border-radius-xs)solid var(--border-action-hover, #5d4aec);
         color: var(--text-on-action, #fff);
         background-color: var(--surface-action-1-hover, #5d4aec);
         text-decoration: none;
@@ -41,7 +42,7 @@
     }
   
     &.secondary {
-      border: 1px solid var(--border-primary, #5d4aec);
+      border:var(--border-radius-xs) solid var(--border-primary, #5d4aec);
       color: var(--text-action, #5d4aec);
       background-color: var(--surface-primary, #fff);
       box-shadow: none;
