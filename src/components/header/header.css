@@ -10,7 +10,7 @@
 
 .container{
     width: 90%;
-    max-width: 1312px;
+    max-width: 768px;
     margin: 0 auto;
 }
 
@@ -41,18 +41,26 @@ h1, .nav-container, .Link, .nav-button{
 /* media queries */
 
 
-@media(min-width:790px){
+@media(min-width:925px) {
     .Link{
         display: flex;
     }
 
     .nav-input{
-        display:block;
+        display: block;
     }
+
+    .container{
+        width: 85%;
+        max-width: 1312px;
+        margin: 0 auto;
+    }
+    
+ 
 
 }
 
-@media(max-width: 500px){
+@media(max-width: 580px){
     .primary{
         display: none;
     }
