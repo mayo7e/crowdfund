@@ -1,0 +1,31 @@
+
+.nav-bar{
+    width:240px;
+    height:95vh;
+    padding: 32px 0;
+    position:absolute;
+    transition: all 1s;
+    /* border-right: 2px solid teal; */
+    background: teal;   
+}
+
+.nav-items{
+    /* border: 2px solid rgb(71, 255, 86); */
+    width: 70%;
+   
+}
+
+.nav-items li{
+    list-style: none;
+    width: 80%;
+    height:inherit;
+    /* border: 2px solid tomato; */
+     margin-bottom: 40px;
+     
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;  
+    
+}

@@ -16,6 +16,7 @@
 
 h1, .nav-container, .Link, .nav-button{
     flex: 1 1 1132px;
+    margin-left: 2rem;
 }
 
 .Link{
@@ -24,6 +25,10 @@ h1, .nav-container, .Link, .nav-button{
     gap: 32px;
     line-height: 2;
 }
+
+/* li:not(:last-child) {
+    border-bottom: 1px solid var(--border-action);
+} */
 
 .button{
    float: right;
@@ -41,7 +46,7 @@ h1, .nav-container, .Link, .nav-button{
 /* media queries */
 
 
-@media(min-width:925px) {
+@media(min-width: 940px) {
     .Link{
         display: flex;
     }
@@ -52,15 +57,14 @@ h1, .nav-container, .Link, .nav-button{
 
     .container{
         width: 85%;
-        max-width: 1312px;
+        max-width: 1132px;
         margin: 0 auto;
     }
     
- 
 
 }
 
-@media(max-width: 580px){
+@media(max-width: 710px){
     .primary{
         display: none;
     }
