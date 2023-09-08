@@ -4,18 +4,22 @@ import {PrimaryButton, PrimaryButtonDisabled, SecondaryButton, SecondaryButtonDi
 import Header from "../components/header/header";
 import Navbar from "../components/navbar/navbar";
 
+import { useState } from "react";
+
 
 const Home = () => {
-    return ( 
+    const [showNav, setShowNav] = useState(false)
 
+    const handleNavClick = ()=> setShowNav(!showNav)
+
+    
+    return ( 
         <div>
             {/* <h1 className="heading-lg-semibold">Hello World</h1> */}
             {/* <PrimaryButton /> */}
-            <Header />
-            <Navbar />
-            <hi>hbeefhhsdchcbchbwhcwbh</hi>
-       
-
+            {/* <Header onClick ={()=> setShowNav(!showNav)} /> */}
+            <Header handleNavClick ={handleNavClick} />
+             <Navbar show ={showNav} />
         </div>
     );
 }

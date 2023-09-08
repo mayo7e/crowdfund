@@ -1,8 +1,8 @@
 
 
-const Navbar = () => {
+const Navbar = ({show}) => {
     return ( 
-        <div className="nav-bar" >
+        <div className={show ? "nav-bar active" : "nav-bar"} >
             <ul className="nav-items" >
                 <li><a className="nav-item" href="/" >Explore</a></li>
                 <li><a className="nav-item" href="/" >Profile</a></li>

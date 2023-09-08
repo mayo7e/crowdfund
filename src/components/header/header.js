@@ -1,15 +1,22 @@
 import Field from "../field/field"
 import Icon from "../../icons/icon"
+// import { MdMenu } from "react-icons/md";
+// import { GiHamburgerMenu } from "react-icons/gi";
 
 import { PrimaryButton, SecondaryButton } from "../button/button-component";
 
-const Header = () => {
+const Header = ({handleNavClick}) => {
     return (
         <header>
             <div className="header container" >
-
-                    <Icon icon="menu" />      
-                    <h1>crowdfund</h1>
+                <div>
+                {/* <MdMenu onClick={handleNavClick} icon="Menu" className="Menu" /> */}
+                    {/* <GiHamburgerMenu icon="Menu" className="Menu" /> */}
+                    {/* <Icon onclick={handleNavClick} icon="menu" />   */}
+                  <Icon handleNavClick={handleNavClick} icon="menu" />
+                </div>
+                
+                    <h1 >crowdfund</h1>
                     <nav className="Link" >
                         <li><a href="/" ></a>Explore</li>
                         <li><a href="/" ></a>Community</li>
