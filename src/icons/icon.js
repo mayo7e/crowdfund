@@ -10,7 +10,7 @@ const icons = {
   };
   
   const Icon = (props) => (
-    <svg onClick={props.handleNavClick} width="80"  height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className='icon' onClick={props.handleNavClick} width="80"  height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d={icons[props.icon]} fill="black"/>
     </svg>
   );

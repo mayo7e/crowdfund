@@ -13,12 +13,12 @@ const Header = ({handleNavClick}) => {
                 {/* <MdMenu onClick={handleNavClick} icon="Menu" className="Menu" /> */}
                     {/* <GiHamburgerMenu icon="Menu" className="Menu" /> */}
                     {/* <Icon onclick={handleNavClick} icon="menu" />   */}
-                  <Icon handleNavClick={handleNavClick} icon="menu" />
+                  <Icon handleNavClick={handleNavClick} icon="menu" className="menu" />
                 </div>
                 
                     <h1 >crowdfund</h1>
                     <nav className="Link" >
-                        <li><a href="/" ></a>Explore</li>
+                        <li><a href="/" ></a>Discover</li>
                         <li><a href="/" ></a>Community</li>
                     </nav>
 

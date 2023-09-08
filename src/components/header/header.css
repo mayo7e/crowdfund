@@ -23,6 +23,12 @@ Header{
     margin: 0 auto;
 }
 
+
+
+.icon{
+    cursor: pointer;
+}
+
 h1, .nav-container, .Link, .nav-button{
     flex: 1 1 1132px;
     margin-left: 2rem;
